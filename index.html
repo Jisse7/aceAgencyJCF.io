@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ace Agency | Calcul de moyenne</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+     <img src="https://ace-agency.io/wp-content/uploads/2024/02/Logotype_Degrade.svg" alt="Logo" class="logo">
+
+<div class="container">
+    <form id="myForm">
+        <label for="firstName">Prénom:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+        
+        <label for="lastName">Nom:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+        
+        <label for="note1">Note 1:</label>
+        <input type="number" id="note1" name="note1" min="0" max="20" required><br><br>
+        
+        <label for="note2">Note 2:</label>
+        <input type="number" id="note2" name="note2" min="0" max="20" required><br><br>
+        
+        <button type="submit" value="Calculer la moyenne">Calculer la moyenne</button>
+    </form>
+    
+    <div id="result"></div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
